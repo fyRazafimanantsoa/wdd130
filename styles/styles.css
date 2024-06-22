@@ -1,5 +1,5 @@
 nav {
-    background-color: slateblue;
+    background-color: steelblue;
     padding: 10px;
 }
 
@@ -10,7 +10,7 @@ nav a {
 }
 
 h1 {
-    color: slateblue;
+    color: steelblue;
 }
 
 img {
@@ -25,3 +25,30 @@ p {
     padding: 10px;
  }
 
+ main {
+    max-width: 840px;
+ }
+
+ aside {
+    width: 30rem;
+    margin: 1px;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color:rgb(103, 215, 235) ;
+    color:steelblue ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ aside img {
+    width: 200px;
+    height: auto;
+    
+ }
+
+ p {padding: 0;}
+
+ footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+ }
