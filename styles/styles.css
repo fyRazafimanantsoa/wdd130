@@ -20,11 +20,6 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-
-p {
-    padding: 10px;
- }
-
  main {
     max-width: 840px;
  }
@@ -52,3 +47,8 @@ p {
     border-top: 1px solid #000;
     text-align: center;
  }
+
+ main img {
+    width: 150px;
+    height: auto;
+}
