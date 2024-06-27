@@ -1,43 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 nav {
     background-color: steelblue;
     padding: 10px;
+    
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 5px;
 }
 
 h1 {
     color: steelblue;
 }
-
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
  main {
     max-width: 840px;
+    margin: 10px
  }
 
  aside {
-    width: 30rem;
+    width: 400px;
     margin: 1px;
     border: 1px solid gray;
     padding: 10px;
-    background-color:rgb(103, 215, 235) ;
     color:steelblue ;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
  }
 
+ aside h2 {
+    position: absolute;
+    top: 10px;
+    left: 150px; 
+    padding: 10px;
+    color: rgb(161, 180, 155);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  }
  aside img {
-    width: 200px;
-    height: auto;
-    
+    width: 300px;
+    height: 150px; 
  }
 
  p {padding: 0;}
@@ -51,4 +59,20 @@ img {
  main img {
     width: 150px;
     height: auto;
+    border:  1px solid steelblue;
+    padding: 1px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 2rem 2rem;
 }
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem 10rem 0 0;
+    border: 1px solid rgb(0,0,0,.1);
+    padding: 1rem;
+    background-color:#e6f8fc ;
+    color:steelblue ;
+  }
+
