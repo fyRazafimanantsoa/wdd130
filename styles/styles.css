@@ -26,9 +26,9 @@ h1 {
     color: steelblue;
     border-bottom: 2px solid #000;
 }
- header, footer, .grid, main{
+ header, footer, .grid{
     max-width: 850px;
-    margin: auto;
+    margin: 0 auto;
  }
 
  aside {
