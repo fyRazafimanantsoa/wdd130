@@ -24,7 +24,6 @@ header {
     grid-template-columns: 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    max-width: auto;
 }
 
 header img {
@@ -63,7 +62,7 @@ nav a {
     color: #000;
     font-size: 150%;
     font-family:serif ;
-}
+}   
 section p {
     color: #000;
 }
@@ -98,7 +97,7 @@ section img{
     margin: 2rem 0;
 }
 
-.history div {
+.history section {
     display: flex;
     align-items: center;
     justify-content: space-between;
