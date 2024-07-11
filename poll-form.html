@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <meta name="description" content="This is a basic form built for educational purpose">
+    <meta name="author" content="Fy Razafimanantsoa">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Fy Razafimanantsoa | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact information</legend>
+                <label for="fullname">Full name</label>
+                <input type="text" id="fullname" value="fullname"><br>
+                <label for="email"> Email </label>
+                <input type="text" id="useremail" value="useremail">
+            </fieldset>
+            <fieldset>
+                <label for="browser">What is your favorite internet browser?</label><br>
+                <select id="browser" name="browser">
+                  <option value="chrome">Chrome</option>
+                  <option value="firefox">Firefox</option>
+                  <option value="edge">Edge</option>
+                  <option value="other">Other</option>
+                </select>
+                <br><label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <br><label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+              </fieldset>
+              <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+</body>
+<footer>
+    <p>&copy;2024 | HTML Form - User Poll | Fy Razafimanantsoa</p>
+</footer>
+</html>
