@@ -169,3 +169,70 @@ footer {
 .sociallinks a {
     text-decoration: none;
 }
+
+.company-info {
+    margin: 10px 0;
+    font-size: 15px;
+    max-width: 100%;
+    font-style: oblique;
+}
+.map {
+    margin: 0 50px 0 50px;
+    border:rgba(0, 0, 0, 1);
+    border-right: 20px;
+}
+.employees, .contact-form {
+    margin: 20px 0;
+}
+
+.company-info .map iframe {
+    width: 100%;
+    height: 300px;
+    
+}
+
+.employees figure {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.employees img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 50px 0 0 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    color: black;
+}
+
+.contact-form input{
+    padding: 10px;
+    margin: 5px ;
+    max-width: 350px;
+}
+.contact-form textarea {
+    padding: 10px;
+    margin: 5px ;
+    max-width: 500px;
+}
+.contact-form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    width: 150px;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}

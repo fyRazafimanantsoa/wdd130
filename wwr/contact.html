@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us - MADA Rafting</title>
+    <meta name="description" content="Get in touch with MADA Rafting. Contact us for inquiries, reservations, or suggestions.">
+    <meta name="author" content="Fy Razafimanantsoa">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/Mada.png" alt="Rafting Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <p>Address: 5M P87, Andasibe bufurcation pont, Ampefy, Ampefy</p>
+            <p>Phone: (+261) 34 00 604 98</p>
+            <p>Email: madarafting@support.com</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15086.08683969894!2d46.726113790497635!3d-19.0407862822124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21fb23cdc53c0805%3A0xff59c3af97886994!2sAmpefy!5e0!3m2!1sfr!2smg!4v1720897079812!5m2!1sfr!2smg" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <figcaption>John Doe - Tour Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <figcaption> Customer Service team</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <figcaption>Jim Brown - Safety Officer</figcaption>
+            </figure>
+        </section>
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="purpose">Purpose of Message:</label>
+                <div>
+                    <input type="radio" id="inquiry" name="purpose" value="inquiry">
+                    <label for="inquiry">General Inquiry</label>
+                </div>
+                <div>
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label>
+                </div>
+                <div>
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <div>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 || <em>MADA</em> Rafting. Developed by [Fy Razfimanantsoa]</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
