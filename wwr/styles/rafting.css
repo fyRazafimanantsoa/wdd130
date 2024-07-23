@@ -5,7 +5,7 @@
     --secondary-color: #78c9ab;
     --accent-color: #2F4858;
     --text-color: hsl(0, 0%, 100%);
-    --background-color: #f2fdfd;
+    --background-color: #e9fcfc;
 }
 
 body {
@@ -23,19 +23,28 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #ffffff;
 }
 
 header img {
     height: 150px;
     width: auto;
 }
-nav a {
-    margin: 0 3rem;
+header nav a {
+    padding: 10px 25px;
+    margin: 0 3rem 0 0;
     text-decoration: none;
     color: var(--text-color);
+    border: 1px solid white ;
+    border-left: 2px solid rgba(111, 114, 114, 0);
+    border-top: 2px solid rgba(82, 83, 83, 0);
+    background-color: var(--secondary-color);
+    cursor:pointer;
 }
-
+footer nav a {
+    padding: 10px 25px;
+    margin: 0 3rem 0 0;
+}
 .hero {
     position: relative;
     text-align: center;
@@ -133,6 +142,7 @@ figure img {
     width: 200px;
     height: auto;
     border-radius: 10%;
+
 }
 
 figcaption {
@@ -154,27 +164,26 @@ footer {
 footer p {
     margin: 0;
 }
-footer {
-    background-color: var(--primary-color);
-    text-align: center;
-    padding: 1rem;
-    color: var(--text-color);
-}
 
 .sociallinks a img {
     height: 24px;
     margin: 0 0.5rem;
+    background-color:none;
+
 }
 
 .sociallinks a {
     text-decoration: none;
+    border: none;
 }
 
 .company-info {
-    margin: 10px 0;
-    font-size: 15px;
+    margin: 10px ;
+    padding: 5px;
+    font-size: 13px;
     max-width: 100%;
     font-style: oblique;
+    border: 1px solid #5888a5;
 }
 .map {
     margin: 0 50px 0 50px;
@@ -199,16 +208,24 @@ footer {
 }
 
 .employees img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     border-radius: 50%;
-    margin: 50px 0 0 0;
+    margin: auto ;
+    display:flex;
+    align-items:center;
 }
 
 .contact-form form {
     display: flex;
     flex-direction: column;
+    border: 2px solid #777777;
+    border-left:1px solid #666666;
+    border-top:1px solid #666666;
+    padding: 5px 15px;
+    background-color: #31a7a1;
 }
+
 
 .contact-form label {
     margin-top: 10px;
@@ -236,4 +253,136 @@ footer {
 
 .contact-form button:hover {
     background-color: #0056b3;
+}
+
+.cta {
+    background:  #31a7a1;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    columns: black;
+}
+
+.trip-descriptions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.trip-descriptions article {
+    width: 27%;
+    text-align: center;
+    height: 400px;
+    padding: 5px;
+    margin: 2px;
+    background-color: #33658a;
+}
+
+.trip-descriptions img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.trip-descriptions p{
+    color: #ddd;
+}
+
+.trips-table {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.blocks{
+    border: 1px solid black;
+}
+I {
+    border: 1px solid black;
+    
+}
+B{
+    border: 1px solid black;
+}
+
+.newsletter, .call-to-action, .info-grid {
+    margin: 2rem 1rem;
+}
+
+.newsletter h3 {
+    margin-bottom: 1rem;
+    color:#000;
+    font-size: 25px;
+    font-variant: small-caps;
+    font-style:oblique;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    color:dimgrey;
+}
+
+.newsletter form label {
+    margin-bottom: 0.5rem;
+}
+
+.newsletter form input, .newsletter form button {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    max-width: 500px;
+}
+
+.newsletter form button {
+    background: #333;
+    color: #fff;
+    border: none;
+}
+
+.call-to-action p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.call-to-action a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.grid-item img {
+    width: 100%;
+    height:350px;
+}
+
+.home {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+    max-width: 100%;
+}
+.home img {
+   width: 100%;
 }
